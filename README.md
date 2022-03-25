@@ -8,7 +8,7 @@ I then created an array using the concatenation method from arrays of each chara
 
 I found this project to be pretty straight forward once I sat down and broke down the problem into pseudocode. At first, I thought to write 'if/else' statements for each possible combination of criteria, but then realized I could be much more efficient by using boolean variables defined by my Confirm methods to concatenate my array without the need for a massive list of if/else statements. By sitting down to pseudocode and figure out exactly how I wanted to attack the problem before writing any code, I saved myself a ton of time and the only things I really had to fix were typos and several instances where I used the wrong variables. In fact, the biggest take away from this project name for me is to not have so many variables with nearly identical names, to help avoid confusion.
 
-<<<<<<< HEAD
+You can view the live deployed page [here](https://noahneville.github.io/password-generator/)
 
 ## Update 3.25.22 
 
@@ -17,11 +17,6 @@ Updating this after I already submitted it but before the deadline so hopefully 
 Went over my code in a tutoring session and realized that there was actually no guarantee that each type of character selected would appear. To resolve this, I added a new array variable guaranteedChar and performed the Math.floor(Math.random) function inside each of my if loops that determined which criteria to use. I then subtracted the length of that array from the user specified length so that my for loop would be adjusted to run the correct number of times. Finally, I pushed the result of the for loop to my guaranteedChar and converted it to a string. 
 
 We noticed that if you ran the generator a second time, it would spit out a password that was too long and included the entire first password in it. This is because I originally declared my finalResult variable globally, so it didn't reset each time the function ran. Moved it into the function it self and fixed the problem. 
-=======
-The project can be found deployed live [here](https://noahneville.github.io/password-generator/)
-
-The repository can be found [here](https://github.com/noahneville/password-generator)
->>>>>>> 51fa9018af510414545486c18b120ac73a45e372
 
 ## Acknowledgements 
 
