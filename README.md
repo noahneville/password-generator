@@ -9,6 +9,7 @@ I then created an array using the concatenation method from arrays of each chara
 I found this project to be pretty straight forward once I sat down and broke down the problem into pseudocode. At first, I thought to write 'if/else' statements for each possible combination of criteria, but then realized I could be much more efficient by using boolean variables defined by my Confirm methods to concatenate my array without the need for a massive list of if/else statements. By sitting down to pseudocode and figure out exactly how I wanted to attack the problem before writing any code, I saved myself a ton of time and the only things I really had to fix were typos and several instances where I used the wrong variables. In fact, the biggest take away from this project name for me is to not have so many variables with nearly identical names, to help avoid confusion.
 
 The project can be found deployed live [here](https://noahneville.github.io/password-generator/)
+
 The repository can be found [here](https://github.com/noahneville/password-generator)
 
 ## Acknowledgements 
